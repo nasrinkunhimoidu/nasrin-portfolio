@@ -40,7 +40,7 @@ window.PORTFOLIO = {
  {period:'2020 — 2024',title:'NSS Volunteer',organization:'National Service Scheme',mode:'Volunteer',description:'Completed two certified 240-hour NSS programmes and attended special camps, strengthening social responsibility, teamwork, and leadership.'},
  {period:'2019 — 2020',title:'JRC Cadet',organization:'Junior Red Cross',mode:'Cadet',description:'Passed the C-level examination with 48/50 and secured full attendance in unit activities while building discipline, service awareness, and confidence.'}
  ],
- interests:['Travel & world exploration','Video editing','Dance','Anchoring'],
+ interests:['Travel & world exploration','Video editing','Dance','Anchoring','Online tutoring'],
  resume:'assets/Nasrin_Kunhimoidu_Resume.pdf',
  journey:[
  {date:'2025',title:'A foundation in computing',description:'Completed BCA at Mar Dionysius College, affiliated with the University of Calicut.'},
