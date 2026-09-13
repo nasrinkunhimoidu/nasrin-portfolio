@@ -1,14 +1,14 @@
 # Nasrin Kunhimoidu — Personal Portfolio
 
-A responsive single-page portfolio using HTML, CSS and vanilla JavaScript. It contains Nasrin's supplied photographs and facts from her CV and messages. No dependency installation is required.
+A responsive cinematic portfolio using HTML, CSS and vanilla JavaScript. It contains Nasrin's supplied photographs, professional portrait treatment, certifications, CV, social profiles, and confirmed personal details. No dependency installation is required.
 
 ## Edit content
 
-Edit `dist/content.js` for education, skills, project descriptions, experience, contact information and journey milestones. Add LinkedIn or GitHub URLs to their empty fields when available. Certificates are an empty array until authentic assets are supplied. A certificate entry uses `title`, `issuer`, `date`, and `image` (a local path under `dist`).
+Edit `dist/content.js` for education, skills, project descriptions, certifications, activities, interests, contact information, social links, resume path, and journey milestones. A certificate entry uses `title`, `issuer`, `date`, `image`, and `description`.
 
 Run `node scripts/render-static.cjs` after content changes to refresh the readable, search-friendly HTML. The script also validates local assets, section anchors and duplicate IDs.
 
-`dist/app.js` contains reusable rendering and interactions. `dist/style.css` contains responsive styles and motion. Hero copy and layout can be edited in the `.hero` template in `dist/app.js` before refreshing static HTML.
+`dist/app.js` contains reusable rendering and interactions. `dist/style.css` contains the foundation; `dist/premium.css` contains the premium motion, loader, gallery, resume, certification, and cursor layer. Hero copy and layout can be edited in the `.hero` template in `dist/app.js` before refreshing static HTML.
 
 ## Preview
 
