@@ -25,13 +25,20 @@ window.PORTFOLIO = {
  certificates:[
  {title:'Introduction to Software Engineering',issuer:'IBM · Coursera',date:'17 June 2025',image:'assets/certificate-software-engineering.jpg',description:'Completed the IBM-authorized software engineering course offered through Coursera.'},
  {title:'AI Enabled Web Applications Using Python and Django',issuer:'Fortune Institute of Technology',date:'20 March 2024',image:'assets/certificate-ai-django.jpg',description:'Completed focused training in building AI-enabled web applications with Python and Django.'},
- {title:'Build With AI Hackathon',issuer:'μLearn MESCE · μLearn',date:'31 March 2026',image:'assets/certificate-build-with-ai.jpg',description:'Certificate of participation for contributing creativity and practical problem solving with artificial intelligence.'}
+ {title:'Build With AI Hackathon',issuer:'μLearn MESCE · μLearn',date:'31 March 2026',image:'assets/certificate-build-with-ai.jpg',description:'Certificate of participation for contributing creativity and practical problem solving with artificial intelligence.'},
+ {title:'Junior Red Cross Course Certificate (C)',issuer:'Indian Red Cross Society · Kerala State Branch',date:'3 January 2020',image:'assets/certificate-jrc-course.jpg',description:'Passed the C-level examination with 48/50, attended a one-day camp, and secured 100% unit activity attendance.'},
+ {title:'Higher Secondary NSS Certificate',issuer:'Directorate of General Education · Government of Kerala',date:'2020–2022',image:'assets/certificate-nss-higher-secondary.jpg',description:'Completed the two-year National Service Scheme programme with 240 hours of service and one special camp.'},
+ {title:'Industrial Visit — Netstager Technologies',issuer:'Netstager Technologies Pvt. Ltd.',date:'25 February 2025',image:'assets/certificate-netstager-industrial-visit.jpg',description:'Participated in the third-year BCA industrial visit to Netstager Technologies at UL Cyberpark, Calicut.'},
+ {title:'KIMS Academic Project Certificate',issuer:'RISS Technologies',date:'7 March 2025',image:'assets/certificate-kims-project.jpg',description:'Completed the Kerala Immigration Management System academic project using Python and Android from July 2024 to March 2025.'},
+ {title:'Malappuram Revenue District Sasthrasangamam',issuer:'General Education Department',date:'November 2021',image:'assets/certificate-sasthrasangamam-district.jpg',description:'Recognized in the HSS Project category at the Malappuram Revenue District Sasthrasangamam.'},
+ {title:'First Rank — Sasthrarangam Project',issuer:'General Education Department · Ponnani Sub-District',date:'2021–2022',image:'assets/certificate-sasthrarangam-first.jpg',description:'Awarded first rank in the HSS Project category at the Ponnani Sub-District Sasthrarangam.'},
+ {title:'NSS Certificate of Merit',issuer:'University of Calicut · National Service Scheme',date:'31 December 2024',image:'assets/certificate-nss-merit.jpg',description:'Completed 240 hours of NSS regular activities and attended a special camp during 2022–2024.'}
  ],
  activities:[
  {period:'MAR 2026 — PRESENT',title:'Student Registration Coordinator',organization:'Learn by Vajra Office Center',mode:'Remote',description:'Coordinate registration data processing, verification, status tracking, and management updates. Maintain documentation and resolve administrative issues.'},
  {period:'NOV 2025 — PRESENT',title:'Online Tutor',organization:'Clasps Learn',mode:'Remote',description:'Provide one-to-one online tutoring, adapt explanations to individual needs, and use collaborative tools to support understanding.'},
- {period:'COMMUNITY SERVICE',title:'NSS Volunteer',organization:'National Service Scheme',mode:'Volunteer',description:'Contributed as a volunteer, strengthening social responsibility, teamwork, leadership, and community participation.'},
- {period:'YOUTH SERVICE',title:'JRC Cadet',organization:'Junior Red Cross',mode:'Cadet',description:'Participated as a Junior Red Cross cadet, building discipline, service awareness, cooperation, and confidence.'}
+ {period:'2020 — 2024',title:'NSS Volunteer',organization:'National Service Scheme',mode:'Volunteer',description:'Completed two certified 240-hour NSS programmes and attended special camps, strengthening social responsibility, teamwork, and leadership.'},
+ {period:'2019 — 2020',title:'JRC Cadet',organization:'Junior Red Cross',mode:'Cadet',description:'Passed the C-level examination with 48/50 and secured full attendance in unit activities while building discipline, service awareness, and confidence.'}
  ],
  interests:['Travel & world exploration','Video editing','Dance','Anchoring'],
  resume:'assets/Nasrin_Kunhimoidu_Resume.pdf',
