@@ -35,3 +35,31 @@ body:after{opacity:.48;background-image:radial-gradient(circle at 8% 14%,#fff 0 
 @keyframes cosmic-dust{to{background-position:233px 211px,-307px 271px,389px -347px,-443px -401px}}
 @media(max-width:650px){.galaxy-canvas{opacity:.78}.section{backdrop-filter:none}body:before{filter:blur(38px)}}
 @media(prefers-reduced-motion:reduce){.galaxy-canvas{opacity:.72}body:before,body:after{animation:none}}
+
+/* Milky Way art direction — intentionally visible behind the entire experience */
+body{background:#02030a}
+.galaxy-canvas{opacity:1;filter:drop-shadow(0 0 8px #b9eaff80)}
+body:before{inset:-6%;opacity:.98;background:linear-gradient(90deg,#01030bd9 0%,#01030b73 37%,#01030b19 68%,#01030b40 100%),linear-gradient(0deg,#02030ab0 0%,transparent 48%,#02030a14 100%),url('assets/galaxy-panorama.jpg') center top/cover no-repeat;filter:saturate(1.22) contrast(1.1) brightness(.92);animation:galaxy-camera 32s ease-in-out infinite alternate;will-change:transform}
+body:after{inset:-12%;opacity:.68;background:radial-gradient(ellipse at 72% 18%,#2b8bb23d,transparent 27%),radial-gradient(ellipse at 35% 42%,#6e3e9840,transparent 31%),radial-gradient(ellipse at 80% 74%,#be6f3a2b,transparent 24%),radial-gradient(circle at 12% 62%,#6adcf017 0,transparent 22%);background-size:auto;mix-blend-mode:screen;filter:blur(48px);animation:nebula-breathe 19s ease-in-out infinite alternate}
+.site-header{background:linear-gradient(90deg,#030610e8,#080d19cf);border-bottom-color:#b9eaff21;box-shadow:0 14px 45px #0008,inset 0 -1px 0 #7de5ff0c}
+.hero{background:radial-gradient(circle at 62% 38%,#18395a3b 0,#070a1538 39%,#01030a61 76%);box-shadow:inset 0 -90px 120px #02040ccf}
+.hero:before{opacity:.48;mask-image:linear-gradient(black,transparent 72%)}
+.hero-backdrop>img{opacity:.08;filter:blur(70px) saturate(.7) brightness(.5)}
+.hero-backdrop:after{background:linear-gradient(90deg,#01030bea 0%,#01030b9c 25%,#01030b33 53%,#01030b0d 72%,#01030b45 100%),linear-gradient(0deg,#02030aab 0%,transparent 48%,#02030a2e 100%)}
+.cinematic-title h1{text-shadow:0 14px 42px #000,0 0 45px #93dce614}.cinematic-title h1 em{text-shadow:0 10px 42px #000,0 0 34px #e5a66d38}
+.portrait-face{background:linear-gradient(145deg,#b6f5ff9c,#e5a66d62);border-color:#d7f9ff9c;box-shadow:0 48px 130px #000,0 0 80px #6edbea34,inset 0 1px 0 #fff8}
+.portrait-orbit{border-color:#a6efff61;box-shadow:0 0 42px #7ee7f51b}.orbit-b{border-color:#f1b57a66;box-shadow:0 0 38px #e5a66d1a}
+.section{background:linear-gradient(140deg,#07101a9c,#050912b5)!important;box-shadow:inset 0 1px 0 #d7f5ff0d,inset 0 -80px 120px #01030a42;backdrop-filter:blur(5px) saturate(1.08)}
+.section:nth-of-type(even){background:linear-gradient(140deg,#0a0d199f,#07101aaa)!important}
+.section:after{opacity:.54;background:radial-gradient(circle at calc(12% + var(--section-progress,0)*68%) 11%,#42bfd947,transparent 20%),radial-gradient(circle at 86% 76%,#8d4fa329,transparent 23%),linear-gradient(125deg,transparent 0 49.85%,#c6f7ff13 50%,transparent 50.15%);background-size:auto,auto,150px 150px;mix-blend-mode:screen}
+.metrics-rail{background:linear-gradient(180deg,#02040b7d,#060a12a3);backdrop-filter:blur(8px)}
+.discipline-strip{background:#040816cf;border-color:#9eefff1f;box-shadow:0 15px 45px #0008}
+.kpi-card,.skill-card,.certificate-card,.resume-panel{background:linear-gradient(145deg,#14233ad1,#070b16a8);border-color:#c3f4ff26;box-shadow:inset 0 1px 0 #fff0,0 24px 75px #0006;backdrop-filter:blur(22px) saturate(1.18)}
+.kpi-card:hover,.skill-card:hover,.certificate-card:hover{border-color:#8defff7d;box-shadow:inset 0 1px 0 #ffffff1a,0 32px 95px #000b,0 0 62px #65ddf018}
+.project-case{border-color:#bcefff2b;background:#06101bc4;box-shadow:0 48px 150px #000c,0 0 90px #3eb9d00d}.project-case-copy{background:linear-gradient(145deg,#0c1725e8,#050915e8);backdrop-filter:blur(22px)}
+.interest-orbit{background:radial-gradient(circle,#174d667a,transparent 67%);box-shadow:0 0 0 38px #71e6fb0a,0 0 0 76px #c477df09,0 0 110px #49cade22}
+.contact-cinematic{background:linear-gradient(145deg,#06101aa6,#02040baa)!important}
+@keyframes galaxy-camera{0%{transform:translate3d(-1.5%,-1%,0) scale(1.04)}48%{transform:translate3d(1.8%,1%,0) scale(1.095)}100%{transform:translate3d(-.5%,3.2%,0) scale(1.13)}}
+@keyframes nebula-breathe{0%{transform:translate3d(-3%,-1%,0) scale(.98);opacity:.48}100%{transform:translate3d(4%,3%,0) scale(1.12);opacity:.78}}
+@media(max-width:650px){body:before{background-position:64% top;filter:saturate(1.18) contrast(1.08) brightness(.83)}body:after{filter:blur(34px)}.hero{background:linear-gradient(180deg,#02040b6b,#02040b38 48%,#02040b8f)}.hero-backdrop:after{background:linear-gradient(180deg,#02040b2c,#02040b1f 54%,#02040ba6)}.section{background:linear-gradient(150deg,#07101aa6,#040811bc)!important;backdrop-filter:none}}
+@media(prefers-reduced-motion:reduce){body:before,body:after{animation:none}.galaxy-canvas{filter:none}}
