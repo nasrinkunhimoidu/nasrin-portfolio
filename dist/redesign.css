@@ -20,3 +20,18 @@ dialog{background:#070d15;color:#eaf4f7;border-color:#78dce850;box-shadow:0 40px
 @media(max-width:650px){body:after{background-size:46px 46px}.hero,.cinematic-main{min-height:1040px}.cinematic-main{grid-template-rows:auto 410px auto}.portrait-stage{height:410px}.portrait-card{width:min(72%,255px)}.cinematic-title h1{font-size:clamp(46px,12vw,66px)}.metrics-rail{grid-template-columns:1fr 1fr;gap:9px;padding-top:10px;padding-bottom:64px}.kpi-card{min-height:180px;padding:20px 16px}.kpi-card strong{font-size:42px;margin:24px 0 17px}.kpi-card p{font-size:10px}.kpi-card>span{font-size:7px}.section{padding-block:75px}.project-lab{padding-inline:0}.project-lab>.section-label,.project-lab>.section-heading{margin-inline:6%}.project-case{border-inline:0;margin:28px 0 60px}.project-shot{min-height:310px}.project-hud{top:14px!important;right:14px!important;left:auto!important;width:116px;padding:11px}.project-hud b{font-size:30px}.project-frame-label{left:14px;right:14px;bottom:13px;font-size:7px}.project-case-copy{padding:34px 6% 40px;min-height:0}.project-case-copy h3{font-size:54px}.project-module-list{margin-top:15px}.project-module-list span{font-size:7px;padding:9px 7px}.certificate-card{display:flex}.certificate-visual{height:225px}.resume-panel{background:linear-gradient(145deg,#101a26,#080d16)}.site-header nav{background:#060a10f5}}
 @media(max-width:650px){.photo-story .story-image:nth-child(n){grid-column:auto;grid-row:auto;height:330px}}
 @media(prefers-reduced-motion:reduce){body:before,body:after,.hero:before,.project-scan{animation:none}.section-heading h2{transform:none}.project-case,.kpi-card{transform:none}}
+
+/* Cinematic astronomy backdrop */
+.galaxy-canvas{position:fixed;inset:0;z-index:0;width:100%;height:100%;pointer-events:none;opacity:.92;mix-blend-mode:screen}
+body:before{inset:-18%;background:radial-gradient(ellipse at 17% 22%,#4f34936e 0,transparent 31%),radial-gradient(ellipse at 78% 23%,#125f8270 0,transparent 30%),radial-gradient(ellipse at 64% 77%,#8b335054 0,transparent 31%),radial-gradient(ellipse at 24% 82%,#183d705c 0,transparent 28%),linear-gradient(135deg,#02030a,#090c1a 45%,#03050d);filter:blur(52px) saturate(1.25);animation:cosmic-nebula 24s ease-in-out infinite alternate}
+body:after{opacity:.48;background-image:radial-gradient(circle at 8% 14%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 67% 42%,#b9eaff 0 1px,transparent 1.7px),radial-gradient(circle at 34% 78%,#ffd9c2 0 1px,transparent 1.8px),radial-gradient(circle at 88% 83%,#fff 0 .8px,transparent 1.5px);background-size:233px 211px,307px 271px,389px 347px,443px 401px;mask-image:linear-gradient(black,black);animation:cosmic-dust 54s linear infinite}
+.hero{background:radial-gradient(circle at 50% 44%,#182637cc 0,#090f1bc4 42%,#03050bbb 78%)}
+.hero-backdrop:after{background:linear-gradient(90deg,#03050bd9 0%,#03050b6e 35%,#03050b38 50%,#03050b78 70%,#03050bdd 100%),linear-gradient(0deg,#03050bbd 0%,transparent 42%,#03050b8c 100%)}
+.section{background:linear-gradient(140deg,#07101ac2,#050912d1)!important;backdrop-filter:blur(2px)}
+.section:nth-of-type(even){background:linear-gradient(140deg,#090d17cc,#07101acc)!important}
+.metrics-rail{background:linear-gradient(180deg,#03050bc7,#060a12cf)}
+.discipline-strip{background:#050914b8}
+@keyframes cosmic-nebula{0%{transform:translate3d(-2%,-1%,0) scale(1)}45%{transform:translate3d(3%,2%,0) scale(1.06)}100%{transform:translate3d(-1%,5%,0) scale(1.1)}}
+@keyframes cosmic-dust{to{background-position:233px 211px,-307px 271px,389px -347px,-443px -401px}}
+@media(max-width:650px){.galaxy-canvas{opacity:.78}.section{backdrop-filter:none}body:before{filter:blur(38px)}}
+@media(prefers-reduced-motion:reduce){.galaxy-canvas{opacity:.72}body:before,body:after{animation:none}}
