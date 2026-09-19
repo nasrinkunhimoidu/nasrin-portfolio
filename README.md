@@ -2,6 +2,10 @@
 
 A responsive cinematic portfolio using HTML, CSS and vanilla JavaScript. It contains Nasrin's supplied photographs, professional portrait treatment, certifications, CV, social profiles, and confirmed personal details. No dependency installation is required.
 
+**Live portfolio:** [folio-graduation-studio.nasrin-kunhimoiduu.chatgpt.site](https://folio-graduation-studio.nasrin-kunhimoiduu.chatgpt.site/)
+
+The experience includes a photographic Milky Way background, animated starfield, responsive glass UI, interactive portrait treatment, project case studies, ten certificates, a graduation gallery, resume download, and accessible reduced-motion behavior.
+
 ## Edit content
 
 Edit `dist/content.js` for education, skills, project descriptions, certifications, activities, interests, contact information, social links, resume path, and journey milestones. A certificate entry uses `title`, `issuer`, `date`, `image`, and `description`.
@@ -20,12 +24,13 @@ The validated form prepares a mailto draft in the visitor's email app. It does n
 
 ## Content provenance
 
-- Four original photographs supplied by Nasrin; resized and JPEG-compressed for web delivery. CSS framing and shading preserve the actual images.
+- Original professional and graduation photographs supplied by Nasrin; resized and JPEG-compressed for web delivery. CSS framing and shading preserve the actual images.
 - Education, project details, experience, email and telephone: supplied CV.
 - MySQL, Excel, mobile app development, communication, leadership and teamwork: confirmed in the conversation.
 - MCA is in progress, with expected graduation in March 2027. BCA was completed in 2025.
-- Project cover graphics are typographic system overviews, not invented product screenshots. AI features described in the CV remain explicitly identified as future scope.
-- No certificate images, LinkedIn or GitHub profile URLs were supplied.
+- Project cover visuals represent the AeroNexus airport system and KIMS immigration-management system without claiming to be product screenshots. AI features described in the CV remain explicitly identified as future scope.
+- Ten supplied certificate images are presented with descriptive metadata and an accessible lightbox.
+- LinkedIn and Instagram links were supplied and are included. No GitHub profile URL was supplied.
 - Visual reference: the supplied Instagram reel, used for its portrait-led, bold, dark hero composition.
 
 ## Accessibility and performance
