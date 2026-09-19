@@ -32,7 +32,7 @@ window.PORTFOLIO = {
  {title:'Industrial Visit — Netstager Technologies',issuer:'Netstager Technologies Pvt. Ltd.',date:'25 February 2025',image:'assets/certificate-netstager-industrial-visit.jpg',description:'Participated in the third-year BCA industrial visit to Netstager Technologies at UL Cyberpark, Calicut.'},
  {title:'KIMS Academic Project Certificate',issuer:'RISS Technologies',date:'7 March 2025',image:'assets/certificate-kims-project.jpg',description:'Completed the Kerala Immigration Management System academic project using Python and Android from July 2024 to March 2025.'},
  {title:'Malappuram Revenue District Sasthrasangamam',issuer:'General Education Department',date:'November 2021',image:'assets/certificate-sasthrasangamam-district.jpg',description:'Recognized in the HSS Project category at the Malappuram Revenue District Sasthrasangamam.'},
- {title:'First Rank — Sasthrarangam Project',issuer:'General Education Department · Ponnani Sub-District',date:'2021–2022',image:'assets/certificate-sasthrasangamam-first.jpg',description:'Awarded first rank in the HSS Project category at the Ponnani Sub-District Sasthrarangam.'},
+ {title:'First Rank — Sasthrarangam Project',issuer:'General Education Department · Ponnani Sub-District',date:'2021–2022',image:'assets/certificate-sasthrarangam-first.jpg',description:'Awarded first rank in the HSS Project category at the Ponnani Sub-District Sasthrarangam.'},
  {title:'NSS Certificate of Merit',issuer:'University of Calicut · National Service Scheme',date:'31 December 2024',image:'assets/certificate-nss-merit.jpg',description:'Completed 240 hours of NSS regular activities and attended a special camp during 2022–2024.'}
  ],
  activities:[
